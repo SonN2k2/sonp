@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dien May Xanh</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			/*background-color: #C6E6F1;*/
+			background-image: url(photos/backgroud.jpg);
+			background-size: cover;
+		}
+		.container{
+			width: 100%;
+			height: auto;
+		}
+		.header{
+			width: 100%;
+			height:20px;
+/*			background-color: none;
+*/		}
+		.menu{
+			width: 100%;
+			height: 50px;
+/*			background-color: none;
+*/		}
+		.menu2{
+			width: 100%;
+			height: 40px;
+/*			background-color: none;
+*/		}
+	.end{
+		background-color: #fff;
+		height: 200px;
+		width: 100%;
+	}
+		input{
+			margin-left: 10px;
+			margin-top: 7px;
+			height: 30px;
+			width: 450px;
+			border:none;
+			padding-left: 10px;
+			background-color: rgb(255,255,240);
+			border-radius: 5px;
+		}
+		.top ul{
+			list-style: none;
+		}
+		.top ul li{
+			float: left;
+		}
+		.top ul li a{
+			text-decoration: none;
+			color: white;
+			padding-left: 50px;
+		}
+		.bot ul{
+			list-style: none;			
+		}
+		.bot ul li{
+			float: left;
+		}
+		.bot ul li a{
+			margin-left: 20px;
+			text-decoration: none;
+			color: black;
+			padding-left: 20px;
+			font-size: 20px			
+		}
+		.bot ul li a:hover{
+			color: red;
+		}
+		.bot ul li a b{
+			border:2px solid;
+		}
+		.bot ul li a b:hover{
+			background-color: white;
+		}
+		.anh{
+			text-align: center;
+		}
+		.anh img{
+			width: 1000px;
+			height: 300px;
+		}
+		.main{
+			width: 70%;
+			display: block;
+		}
+		.flexblock{
+			margin-left: 125px;
+			display: flex;
+		}
+		.flexblock a{
+			text-decoration: none;
+		}
+		.column{
+			padding-right: 0px;
+		}
+		.thumb{
+			width: 200px;
+			height: 170px;
+		}
+		.column a img{
+			border:1px solid gray;
+		}
+		.column a img:hover{
+			background-color: red;
+			border:10px;
+		}
+		.paddingTitleText{	
+			margin-left: 130px;
+		}
+		.titleText{	
+			text-decoration: none;
+			color: #ff2853;
+			font-size: 30px
+		}
+		.bt button{
+			margin-top: 12px;
+			margin-left: 620px;
+			background-color: red;
+			border: 1px solid black;
+			font-size: 25px;
+			color: white;
+			cursor: pointer;
+		}
+		.Name{
+			color: white;
+		}
+		.boxfooter{
+			margin-left: 120px;
+			margin-right: 112px;
+			background-color: #fff;
+			margin-top: 10px;
+		}
+		.tkt{
+			text-decoration: none;
+			padding-left: 30px;
+			color: #4a90e2;
+		}
+		.theme{
+			width: 100%;
+			min-width: 1000px;
+			margin: 0px auto;
+
+		}
+		.rowfoot{
+			display: block;
+			width: 100%;
+			min-width: 1000px;
+			max-width: 1200px;
+			margin-left: 65px;
+			padding: 15px;
+		}
+		.colfoot{
+			width: 20%;
+			float: left;
+			list-style: none;
+			margin: 0;
+		}
+		.colfoot a{
+			text-decoration: none;
+			color: #4a90e2;
+			font-size: 17px;
+		}
+		.colfoot2{
+			width: 20%;
+			float: left;
+			list-style: none;
+			margin: 0;
+		}
+		.colfoot2 a{
+			text-decoration: none;
+			color: black;
+			font-size: 17px;
+		}
+		.colfoot3{
+			width: 20%;
+			float: left;
+			list-style: none;
+			margin: 0;
+		}
+		.colfoot li a button:hover{
+			background-color: red;
+		}
+		.theend{
+			background-color: #CFD9E1;
+			padding-left: 120px;
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header"></div>
+			<div class="menu">
+				<div class="top">
+					<ul>
+						<li>
+							<a href="">
+								<img src="photos/logo.jpg" style="border:3px groove red;">
+							</a>
+						</li>
+						<li>
+							<input type="text" name="timkiem" placeholder="Bạn tìm gì..." >
+						</li>
+						<li>
+							<a href="">Lịch sử
+							<br>
+							<a href="">smua hàng</a>
+							</a>
+						</li>
+						<li >
+							<a href="">
+								<i class="fa fa-shopping-cart" style="margin-top: 5px;font-size: 30px"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>1800.1061</b>
+								<br>
+								<a href="">Tổng đài miễn phí</a>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>Kinh nghiệm hay</b>
+								<br>
+								<a href="">& Khuyến mãi</a>	
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div style="text-align: center; padding-top: 8px; "><button style="color: white; font-size: 20px; background-color: green;border:dotted 3px red;"><b> BÁCH HÓA XANH</b></button></div>
+			<hr>
+			<div class="menu2">
+				<div class="bot">
+					<ul>
+						<li>
+							<a href="tiviandloa.html">
+								<b> Ti vi,Loa</b>
+							</a>
+						</li>
+						<li>
+							<a href="tulanh.html">
+								<b> Tủ lạnh</b>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b> Máy giặt,Sấy</b>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b> Máy lạnh,Quạt</b>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>Máy lọc nước</b>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>Điện gia dụng</b>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>Nhà cửa,Dụng cụ</b>
+							</a>
+						</li>
+						<li>
+							<a href=""><b>Sim,Thẻ cào</a></b>
+						</li>
+						<li>
+							<a href=""><b>TRẢ GÓP</a></b>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+		<div class="content">
+			<div class="anh">
+				<img id="img" onclick="a()" src="photos/anh1.png">
+			</div>
+			<script type="text/javascript">
+				var i = 1;
+				a = function (){
+					var imgs = ["photos/anh1.png","photos/anh2.png","photos/anh3.png","photos/anh4.png","photos/anh5.png"]
+					document.getElementById('img').src = imgs[i];
+					i++;
+					if(i==5){
+						i=0;
+					}
+				}
+				setInterval(a,2000);
+			</script>
+			<script src="https://itexpress.vn/API/files/it.snow.js"></script>
+			<div>
+				<img src="https://cdn.tgdd.vn/2020/12/banner/1200x80-1200x80.png" style="margin-left: 130px">
+			</div>	
+			<div class="main">
+				<div class="row">
+					<div class="flexblock">
+						<div class="column">
+							<a href=""><img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1988/221938/ban-ui-hoi-nuoc-dung-kangaroo-kg-75b6-1-300x300.jpg"></a>
+							<br/>	
+								<a class="Name" href="">Bàn ủi hơi nước đứng</a>
+								<br>
+								<a href="" style="color: white">Kangaroo Kg-75B6</a>
+								<br>
+								<a style="color: #e02020;" href="">Chỉ bán online</a>
+								<br>
+								<a style="color: red;font-size: 20px" href=""><b>1.790.000</b><sup><u>đ</u></sup></a>
+								<br>
+								<a style="text-decoration: line-through; color:white" href="">1.890.000<sup><u>đ</u></sup></a>
+						</div>
+						<div class="column">
+						<a href=""><img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1943/202828/lg-gn-m315bl-1-300x300.jpg"></a>
+						<br/>
+							<a class="Name" href="">LG Inverter 315 lít Gn-M315BL</a>
+							<br/>
+							<a style="color: red; font-size: 20px;" href=""><b>8.490.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;color: white" href="">10.490.000<sup><u>đ</u></sup></a>
+						</div>
+						<div class="column">
+						<a href=""><img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/224516/samsung-ww95j42g0bx-sv-300x300.jpg"></a>
+						<br/>
+							<a class="Name" href="">Samsung Inverter 9.5 Kg W95J42G0BX/SV</a>
+							<br/>
+							<a style="color: #e3701d" class="Chapter" href="">Mới 2020</a>
+							<br>
+							<a style="color:#e02020 " href="">Online giá rẻ</a>
+							<br>
+							<a style="color: red;font-size: 20px" href=""><b>9.970.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;color: white" href="">12.590.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+						<a href=""><img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1962/229576/ariston-sl2-20-r-25fe-mt-133720-123734-300x300.jpg"></a>
+						<br/>
+							<a class="Name" href="">Bình nước nóng Ariston 20 lít SL2 20 R 2.5FE-MT</a>
+							<br/>
+							<a style="color: red;font-size: 20px" href=""><b>2.790.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;color: white" href="">2.990.000<sup>đ</sup></a>
+							<br>
+							<a href="" style="color: white">Quà <b>200.000<sup><u>đ</u></sup></b></a>
+						</div>
+						<div class="column">
+						<a href=""><img class="thumb" src="https://cdn.tgdd.vn/Products/Images/2322/209819/may-lam-sua-hat-mishio-mk-160-2-300x300.jpg"></a>
+						<br/>
+							<a class="Name" href="">Máy làm sữa hạt Mishio MK160</a>
+							<br/>
+							<a style="color: red" href="">Chỉ bán online</a>
+							<br>
+							<a style="color: red;font-size: 20px" href=""><b>1.592.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;color: white" href="">1.990.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+						<a href=""><img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1942/200519/TimerThumb/sony-kdl-43w660g-(8).jpg"></a>
+						<br/>
+						<center>
+							<a class="Name" href="">Sony Smart Tv KDL-43W660G</a>
+							<br/>
+							<a style="color: red;font-size: 20px" href=""><b>7.900.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;color: white" href="">8.400.000<sup>đ</sup></a>
+						</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<a href="xemthem.html"><button style="float: right; margin-right: 127px;font-size: 20px;cursor:pointer; background-color: white;color: black;border:none;">Xem tất cả</button></a>
+			<br>
+			<br>
+			<br>
+			<div>
+				<img src="https://cdn.tgdd.vn/dmx2016/Content/images/2020/HomeV4/Noel/DESK_DMX/GIASOC-DES.png" style="margin-left: 130px">
+			</div>
+			<div class="main">
+				<h2 class="paddingTitleText">
+				<a class="titleText" href="" style="color: black">
+					<i class="fa fa-bolt"></i>
+					Ti vi, loa
+				</a>
+				</h2>
+				<div class="row">
+					<div class="flexblock">
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1942/200379/samsung-ua65ru7100-16-550x340.jpg">
+							</a>
+							<br>
+							<a href="">Samsung Smart TV UA65RU7100</a>
+							<br>
+							<a style="color: red;font-size: 20px" href=""><b>16.800.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;" href="">28.000.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1942/218787/samsung-qa65q60t-245620-095657-550x340.jpg">
+							</a>
+							<br>
+							<a href="">Samsumg Smart TV QLED QA65Q60T</a>
+							<br>
+							<a style="color: #e3701d" href="">Mới 2020</a>
+							<br>
+							<a style="color: red; font-size: 20px" href=""><b>25.950.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;" href="">32.900.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1942/202036/sony-kd-55x7000g-235020-095054-550x340.jpg">
+							</a>
+							<br>
+							<a href="">Sony Smart TV KD-55X7000G</a>
+							<br>
+							<a style="color: red;font-size: 20px" href=""><b>12.600.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;" href="">13.900.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/2162/230737/bo-loa-jbl-mk-12-1-300x300.jpg">
+							</a>
+							<br>
+							<a href="">Loa Karaoke JBL MK 12</a>
+							<br>
+							<a style="color: #e3701d" href="">Mới 2020</a>
+							<br>
+							<a style="color: red; font-size: 20px" href=""><b>13.900.000<sup><u>đ</u></sup></b></a>
+							<br>
+							<a href="">Quà <b>500.000</b><sup><u>đ</u></sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/2162/230728/bo-loa-boston-acoustic-classic-10-1-300x300.jpg">
+							</a>
+							<br>
+							<a href="">Loa Boston Acoustic Classic 10</a>
+							<br>
+							<a style="color: red; font-size: 20px" href=""><b>6.900.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a href="">Quà<b>500.000</b><sup><u>đ</u></sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/2162/202725/loa-keo-lg-rk4-11-600x600.jpg">
+							</a>
+							<br>
+							<a href="">Loa kéo LG RK4 80W</a>
+							<br>
+							<a style="color: red; font-size: 20px" href=""><b>3.490.000</b><sup><u>đ</u></sup></a>
+							<br>
+							<a style="text-decoration: line-through;" href="">6.290.000<sup>đ</sup></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bt">
+				<a href="xemthem.html"><button>Xem thêm...</button></a>
+			</div>
+			<h2 class="paddingTitleText">
+				<a class="titleText" href="">
+					<i class="fa fa-bolt"></i>
+					Máy giặt
+			</h2>
+			<div class="row">
+				<div class="flexblock">
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/155204/may-giat-samsung-ww90k54e0ux-sv-300x300.jpg">
+						</a>
+						<br>
+						<a href="">Samsung Inverter 9 Kg</a>
+						<br>
+						<a style="color: red; font-size: 20px" href=""><b>11.890.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">15.090.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/212883/panasonic-na-fd12vr1bv-23-300x300.jpg">
+						</a>
+						<br>
+						<a href="">Panasonic Inverter 12.5 Kg</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>14.490.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a href="">Giảm thêm <b>700.000</b><sup><u>đ</u></sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/74103/toshiba-aw-f920lv-wb-300x300.jpg">
+						</a>
+						<br>
+						<a href="">Toshiba 8.2 Kg</a>
+						<br>
+						<a style="color: red; font-size: 20px" href=""><b>4.790.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">5.190.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/155200/may-giat-samsung-ww90j54e0bw-sv-dd-300x300.jpg">
+						</a>
+						<br>
+						<a href="">Samsung interver 9 Kg</a>
+						<br>
+						<a style="color: red; font-size: 20px" href=""><b>8.600.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">11.490.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/110586/toshiba-aw-g1000gv-wg-12-300x300.jpg">
+						</a>
+						<br>
+						<a href="">Toshiba 9 Kg</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b
+						>4.900.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">6.200.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1944/216015/panasonic-na-fd10ar1bv-11-300x300.jpg">
+						</a>
+						<br>
+						<a href="">Panasonic inverter 10.5 Kg</a>
+						<br>
+						<a style="color: red;font-size: 20px" href="">8.070.000<sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">10.090.000<sup>đ</sup></a>
+					</div>
+				</div>
+			</div>
+			<div class="bt">
+				<a href="xemthem.html"><button>Xem thêm...</button></a>
+			</div>
+			<h2 class="paddingTitleText">
+				<a class="titleText" href="">
+					<i class="fa fa-bolt"></i>
+					Đồng hồ
+			</h2>
+			<div class="row">
+				<div class="flexblock">
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/7264/202483/timex-tw2p91500-nu-600x600.jpg">
+						</a>
+						<br>
+						<a href="">TimeX-Nữ</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>1.275.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">2.550.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/7264/201954/srwatch-sg5751-4601-den-nam-600x600.jpg">
+						</a>
+						<br>
+						<a href="">G-Shock-Nam</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>3.215.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">4.010.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/7264/202465/timex-tw2r13200-nam-nu-600x600.jpg">
+						</a>
+						<br>
+						<a href="">TimeX-Unisex</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>2.100.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">4.200.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/7264/198486/fossil-es4312-xanh-den-0-600x600.jpg">
+						</a>
+						<br>
+						<a href="">Fossil-Nữ</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>2.095.000</b><sup><u>đ</u></sup></a><br>
+						<a style="text-decoration: line-through;" href="">4.190.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/7264/202108/timex-tw2r42800-den-600x600.jpg">
+						</a>
+						<br>
+						<a href="">Timex-Nam</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>2.055.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">4.110.000<sup>đ</sup></a>
+					</div>
+					<div class="column">
+						<a href="">
+							<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/7264/199191/baby-g-bga-230sa-4adr-hong-up-1-1-600x600.jpg">
+						</a>
+						<br>
+						<a href="">Baby-G-Nữ</a>
+						<br>
+						<a style="color: red;font-size: 20px" href=""><b>3.308.000</b><sup><u>đ</u></sup></a>
+						<br>
+						<a style="text-decoration: line-through;" href="">4.136.000<sup>đ</sup></a>
+					</div>
+				</div>
+			</div>
+			<div class="bt">
+				<a href="xemthem.html"><button>Xem thêm...</button></a>
+			</div>
+			<br>
+			<br>
+			<div>
+				<img src="https://cdn.tgdd.vn/2020/10/banner/BannerStickerTrangchu-01-394x76.png" style="margin-left: 130px">
+				<img src="https://cdn.tgdd.vn/2020/10/banner/stickerdcnbdesk-394x76.png" style="padding-left: 10px">
+				<img src="https://cdn.tgdd.vn/2020/08/banner/stickerOLOLdesk-394x76.png" style="padding-left: 10px">
+			</div>
+			<div>
+				<img src="https://cdn.tgdd.vn/2020/12/banner/sinhto%CC%82%CC%81pc-1200x90.jpg" style="margin-left: 130px">
+			</div>
+			<div class="main">
+				<div class="row">
+					<div class="flexblock">
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/2062/68472/may-ep-trai-cay-philips-hr1847-1-lit-300x300.jpg">
+							</a><br>
+							<a href="">Máy xay ép đa năng Philips</a><br>
+							<a style="color: red;font-size: 20px" href=""><b>1.340.000</b><sup><u>đ</u></sup></a><br>
+							<a style="text-decoration: line-through;" href="">2.600.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1985/101614/electrolux-emb3025-daidien--300x300.jpg">
+							</a><br>
+							<a href="">Máy xay sinh tố Electrolux</a><br>
+							<a style="color: red;font-size: 20px" href=""><b>742.000</b><sup><u>đ</u></sup></a><br>
+							<a style="text-decoration: line-through;" href="">990.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1985/66743/may-xay-sinh-to-philips-hr2118-22-300x300.jpg">
+							</a><br>
+							<a href="">Máy xay sinh tố Philips</a><br>
+							<a style="color: red;font-size: 20px" href=""><b>1.270.000</b><sup><u>đ</u></sup></a><br>
+							<a style="text-decoration: line-through;" href="">2.080.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1985/66744/philips-hr2115-daidien--300x300.jpg">
+							</a><br>
+							<a href="">Máy xay sinh tố Philips</a>
+							<br>
+							<a style="color: red;font-size: 20px" href=""><b>900.000</b><sup><u>đ</u></sup></a><br>
+							<a style="text-decoration: line-through;" href="">1.500.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1985/162915/may-xay-sinh-to-philips-hr2157-300x300.jpg">
+							</a><br>
+							<a href="">Máy xay sinh tố Philips</a>
+							<br>
+							<a style="color: red;font-size: 20px" href=""><b>1.260.000</b><sup><u>đ</u></sup></a><br>
+							<a style="text-decoration: line-through;
+							" href="">2.520.000<sup>đ</sup></a>
+						</div>
+						<div class="column">
+							<a href="">
+								<img class="thumb" src="https://cdn.tgdd.vn/Products/Images/1985/225321/may-lam-sua-hat-magic-a-96-1-300x300.jpg">
+							</a><br>
+							<a href="">Máy làm sữa hạt đa năng Magic A-96</a><br>
+							<a style="color: red;font-size: 20px" href=""><b>1.340.000</b><sup><u>đ</u></sup></a><br>
+							<a style="text-decoration: line-through;" href="">1.790.000<sup>đ</sup></a>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div>
+				<img src="https://cdn.tgdd.vn/2020/11/banner/Vali-Cao-Cap-640-280-640x280-1.png" style="margin-left: 120px; width: 400px;cursor: pointer;">
+				<img src="https://cdn.tgdd.vn/2020/11/banner/Maybom-640-280-640x280-1.png" style="padding-left: 10px; width: 400px;cursor: pointer;">
+				<img src="https://cdn.tgdd.vn/2020/11/banner/May-Rua-XE-640-280-640x280.png" style="padding-left: 10px; width: 400px;cursor: pointer;">
+			</div>
+			<div>
+				<img src="https://cdn.tgdd.vn/2019/12/banner/03-1200x140.jpg" style="margin-left: 120px;width: 1228px;padding-top: 10px;cursor: pointer;">
+			</div>
+			<div class="boxfooter">
+				<span>Tìm kiếm nhiều</span>
+				<a class="tkt" href="">Máy tập thể dục Chạy Bộ</a>
+				<a class="tkt" href="">• Máy bơm nước</a>
+				<a class="tkt" href="">• Món ngon mỗi ngày</a>
+				<a class="tkt" href="">• Tivi Sony</a>
+				<a class="tkt" href="">• Máy lạnh mới 2020</a>
+				<a class="tkt" href="">• Đồ dùng mẹ và bé</a>
+				<a class="tkt" href="">• Máy giặt mới 2020</a>
+				<a class="tkt" href="">• Máy giặt Midea</a>
+				<a class="tkt" href="">• Thiết bị y tế</a>
+				<a class="tkt" href="">• Tư vấn đồng hồ</a>
+				<a class="tkt" href="">• Máy giặt LG</a>
+				<a class="tkt" href="">• Máy lạnh Electrolux</a>
+				<a class="tkt" href="">• Máy lạnh LG</a>
+				<a class="tkt" href="">• Tư vấn quạt,điều hòa</a>
+				<a class="tkt" href="">• Tư vấn thiết bị thông minh</a>
+				<a class="tkt" href="">• Máy rửa xe</a>
+			</div>
+		</div>
+		<hr>
+	<div class="end">
+		<footer class="theme">
+			<div class="rowfoot">
+				<ul class="colfoot">
+					<li>
+						<a href="">DV vệ sinh máy lạnh, máy giặt,quạt</a>
+					</li>
+					<li>
+						<a href="">Lịch sử mua hàng</a>
+					</li>
+					<li>
+						<a href="">Tìm hiểu về mua trả góp</a>
+					</li>
+					<li>
+						<a href="">Chính sách bảo hành</a>
+					</li>
+					<li>
+						<a href="">Chính sách đổi trả</a>
+					</li>
+					<li>
+						<a href="">Giao hàng,lắp đặt</a>
+					</li>
+					<li>
+						<a href=""><b>Xem thêm...</b></a>
+					</li>
+				</ul>
+				<ul class="colfoot">
+					<li>
+						<a href="">Giới thiệu công ty(MWG.vn)</a>
+					</li>
+					<li>
+						<a href="">Tuyển dụng</a>
+					</li>
+					<li>
+						<a href="">Gửi góp ý,khiếu nại</a>
+					</li>
+					<li>
+						<a href="">Tìm siêu thị (1373shop)</a>
+					</li>
+					<li>
+						<a href="">Xem bản mobile</a>
+					</li>
+				</ul>
+				<ul class="colfoot2">
+					<li>
+						<a href="">TỔNG ĐÀI HỖ TRỢ (GỌI MIỄN PHÍ)</a>
+					</li>
+					<li>
+						<a href="">Mua hàng <b>1800.1061</b> (7:30-22:00)</a>
+					</li>
+					<li>
+						<a href="">Kỹ thuật <b>1800.1764</b> (7:30-22:00)</a>
+					</li>
+					<li>
+						<a href="">Bảo hành <b>1800.1065</b> (8:00-21:00)</a>
+					</li>
+					<li>
+						<a href="">Khiếu nại <b>1800.1063</b> (8:00-21:30)</a>
+					</li>
+					<li>
+						<a href=""><img src="https://cdn.tgdd.vn/dmx2016/Content/images/dmca_protected_sml_120n.png"></a>
+					</li>
+				</ul>
+				<ul class="colfoot3">
+					<li>
+						<a style="color: black;font-size: 18px;text-decoration: none;" href=""><b>Website cùng tập đoàn:</b></a>
+					</li>
+					<li>
+						<a style="text-decoration: none;" href=""><button> <b>•MÁI ẤM</b><br> Thế giới di động</a></button>
+					</li><br>
+					<li>
+						<a style="text-decoration: none;color: black" href=""><button> <b>•THẾ GIỚI DI ĐỘNG</b></a></button>
+					</li><br>
+					<li>
+						<a style="text-decoration: none;color: green" href=""><button> •<b>BÁCH HÓA XANH</b></a></button>
+					</li>
+				</ul>
+		</footer>
+		</div>
+		<div class="theend">
+			<div>© 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007.</div>
+			<div>Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Quận 1, TP.Hồ Chí Minh. Điện thoại: (028)3812.59.60. Email: cskh@dienmayxanh.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. <a style="color: #4a90e2;text-decoration: none;" href="">Xem chính sách sử dụng web</a></div>
+		</div>
+	</div>
+</body>
+</html>
